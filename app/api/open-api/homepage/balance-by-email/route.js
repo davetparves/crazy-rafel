@@ -1,7 +1,8 @@
 // /app/api/open-api/homepage/balance-by-email/route.js
 import { NextResponse } from 'next/server'
 import dbConnect from '@/db/connect'
-import User from '@/models/User'
+import User from '@/models/user.model'
+
 
 export async function POST(req) {
   try {
